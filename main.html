@@ -1,80 +1,69 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Nested HTML Tables</title>
-</head>
-<body>
-
-<table border="1" cellpadding="10">
-    <tr>
-        <td>
-            Main Table Row 1 Column 1
-            <table border="1">
-                <tr>
-                    <th>Nested Table 1</th>
-                </tr>
-                <tr>
-                    <td>
-                        <ul>
-                            <li>List item 1</li>
-                            <li>List item 2</li>
-                            <li>List item 3</li>
-                        </ul>
-                    </td>
-                </tr>
-            </table>
-        </td>
-
-        <td>
-            Main Table Row 1 Column 2
-            <table border="1">
-                <tr>
-                    <th>Nested Table 2</th>
-                    <th>Column 1</th>
-                    <th>Column 2</th>
-                </tr>
-                <tr>
-                    <td>Row 1</td>
-                    <td>Data 1</td>
-                    <td>Data 2</td>
-                </tr>
-                <tr>
-                    <td>Row 2</td>
-                    <td>Data 3</td>
-                    <td>Data 4</td>
-                </tr>
-            </table>
-        </td>
-    </tr>
-
-    <tr>
-        <td>
-            Main Table Row 2 Column 1
-            <table border="1">
-                <tr>
-                    <th>Nested Table 3</th>
-                </tr>
-                <tr>
-                    <td style="background-color:black; color:white;">
-                        HTML
-                    </td>
-                </tr>
-            </table>
-        </td>
-
-        <td>
-            Main Table Row 2 Column 2
-            <table border="1">
-                <tr>
-                    <th>Nested Table 4</th>
-                </tr>
-                <tr>
-                    <td>Nested Table</td>
-                </tr>
-            </table>
-        </td>
-    </tr>
-</table>
-
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body> 
+    <table style="width: 100%; height: 100%">
+      <!-- Your code here -->
+		<tr>
+			<td>
+				Nested Table 2 -->
+				<table border="1">
+					<tr>
+						<th colspan="2"> Nested Table 2 </th>
+					</tr>
+					<tr>
+						<th> Column 1 </th>
+						<th> Column 2 </th>
+					</tr>
+					<tr>
+						<td> abc </td>
+						<td> def </td>
+					</tr>
+    </table>
+			</td>
+			<td>
+				Nested Table 1 -->
+				<table border="1">
+					<tr><th> Nested Table 1 </th></tr>
+					<tr><td>
+						<ul>
+							<li> List item </li>
+							<li> List item </li>
+							<li> List u</li>
+						</ul>
+					</td></tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Nested table 3 -->
+				<table border="1">
+					<tr><th colspan="2"> Nested Table 3 </th>
+					</tr>
+					<tr>
+						<td>
+							<a href="#"> Nested Table</a>
+						</td>
+						<td>
+							Demo Continued
+						</td>
+					</tr>
+				</table>
+			</td>
+			<td>
+				Nested table 4 -->
+				<table border="1">
+					<tr><th> Nested Table 4 </th></tr>
+					<tr><td style="background-color:black; colour:white">HTML</td></tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+  </body>
 </html>
